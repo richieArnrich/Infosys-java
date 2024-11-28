@@ -1,0 +1,261 @@
+Java is a high level, object oriented, platform independent
+programming language.
+
+Variables:
+	Used to store data
+	
+	Syntax
+	datatype var_name = value
+	
+	Data types: they specify what type of value a variable holds
+	Types of data types
+	1. Primitive type
+	2. Non primitive type
+	
+	Primitive type: when a keyword behaves as a datatype it is called 
+	as primitive datatype
+	eg: int,long,float,double
+	Non-primitive type: when a class behaves as a datatype it is called
+	as non-primitive datatype
+	Eg: String
+	
+Opertors
+	Task1:
+	A number when divided by 3 leaves a remainder 2 and produces an output of 7.
+	Find the number
+	
+	Task2:
+	Find a two digit number from the given digits
+	x= 5
+	y = 8
+	output: 58 
+	
+	Task3:
+	Given two numbers n1 = 325 n2=457
+	Find a three digit number formed by the last two digits of n1 and last
+	digit of n2
+	output: 257
+	
+	Conditional Operator (Ternary Operator)
+	
+	Syntax:
+	(condition)?"statement 1": "statement 2"
+	true - statement 1 will execute
+	false - statement 2 will execute
+	
+	
+	Given three nos n1 = 15 n2 = 20 n3 = 10
+	find the greatest of three using ternary operator
+
+Increment Operators
+Increment operator is used to increase the value of a variable by 1
+Syntax: 
+++
+	Two types of increment Operators
+	1. Pre increment operator
+	   Syntax:
+	   ++var_name
+
+	   Working of pre-increment operator:
+	   1. Increment the value of the variable by 1
+	   2. Assign the updated the value to the variable
+	   3. Access the updated value
+
+
+	2. Post increment operator
+		Syntax:
+		var_name++
+		WOrking of post-increment operator
+		1. Assign the current value to the variable
+		2. Increment the value of the variable by 1
+		3. Access the updated value
+
+
+
+Decrement Operator
+Decrement operator is used to decrease the value of a variable by 1
+Syntax:
+----------------------------------
+
+Control Flow Statements
+Control flow statements are used to control the flow of a program. They are used to specify the order
+in which the program should execute the statements.
+Types of control flow statements
+1. Conditional Statements
+2. Loops
+
+	Conditional Statements:
+	1. If-else Statement
+	2. Switch Statement
+	3. Ternary Operator
+	4. If-else-if ladder
+	5. Nested if-else statement
+
+	If-else:
+	1. Syntax:
+	if (condition){
+		//code to be executed if condition is true
+	}else{
+		//code to be executed if condition is false
+	}
+
+	If-else-if ladder
+	1. Syntax:
+	if (condition1){
+		//code to be executed if condition1 is true
+	}else if (condition2){
+		//code to be executed if condition2 is true
+	}else{
+		//code to be executed if condition1 and condition2 are false
+	}
+
+	Switch case:
+	1. Syntax:
+	switch (expression){
+		case value1: {
+			//code to be executed if expression equals value1
+		}break;
+		case value2: {
+			//code to be executed if expression equals value2
+		}break;
+		.
+		.
+		.
+		case valueN: {
+			//code to be executed if expression equals valueN
+		}break;
+		default:{
+			//code to be executed if expression does not match any case
+		}
+	}
+
+	Nested if else:
+	1. Syntax:
+	if (condition1){
+		if (condition2){
+			//statements to be executed when condition 1 and condition 2 is true
+		}else{
+			//statements to be executed when condition 1 is true and condition 2 is false
+		}
+	}else{
+		//statements to be executed when condition 1 is false
+	}
+
+	Ternary Operator:
+	1. Syntax:
+	(condition) ? (value if true) : (value if false)
+
+
+Programs based on condition statements:
+1. WAP to find whether a number is even or not 
+without using % Opertor
+4 
+4/2 = 2
+2*2 = 4
+
+5
+5/2 = 2
+2*2 = 4
+
+Loops:
+Used to execute a set of statements multiple times
+Types of Loops:
+1. For Loop
+2. While Loop
+3. Do-While Loop
+
+While Loop:
+1. Syntax:
+initialization
+while(condition){
+	//statements to be executed
+	//update the condition
+}
+Working of while loop:
+1. Initialization: The initialization is done before the while loop starts.
+2. Condition: The condition is checked before the loop starts.
+3. Execution: If the condition is true, the statements inside the loop are executed.
+4. Update: The condition is updated after the execution of the statements inside the loop.
+5. Repeat: Steps 2-4 are repeated until the condition is false.
+
+Program1: WAP to print even nos 1 - 20
+Program2: WAP to print factors of a number 
+num: 8
+factors: 1 2 4 8
+
+Program3: WAP to find whether 8 is a prime number or not
+Program4: WAP to print all the prime number between 1 and 10
+1,2,3,5,7
+
+For loop
+1. Syntax:
+for(initialization; condition; update){
+	//statements to be executed
+}
+Working:
+1. Initialization: The initialization is done before the for loop starts.
+2. Condition: The condition is checked before the for loop starts.
+3. Execution: If the condition is true, the statements inside the loop are executed.
+4. Update: The condition is updated after the execution of the statements inside the loop.
+5. Repeat: Steps 2-4 are repeated until the condition is false.
+--------------------------------------------------------------------------------
+Methods
+Methods are blocks of code that can be called multiple times from different parts of the program. 
+They are used to perform a specific task.
+
+Syntax:
+	public static void main(String[] args){
+		//code
+	}
+
+	access_specifier access_modifier return_type method_name(parameter_list){
+		//method_body
+	}
+
+Any method to be executed, it has to be called in another method.
+
+Types of method:
+1. Non-parameterised methods: 
+A method that does not take any argument is called a no-argument method
+Eg:
+public static void my_method() {
+		System.out.println("Hello, i am a method");
+	}
+
+2. Parameterised methods: A method which takes up arguments while being called is called as 
+parameterised methods
+When calling methods in another methods, the method signature must match with the calling signature
+
+-----------------------------------------------------------------------------
+Program 1: Write a function to reverse a number
+Input: 1234
+Output: 4321
+Step 1: take the last digit
+step 2: add the last digit to the reverse variable
+step 3: remove the last digit from the number
+Step 4: repeat until n!=0 (stop when n becomes 0)
+--------------------
+Program 2:
+find the factorial of each digit in a number
+number: 1456
+Output:
+factorial of 1 is: 1
+factorial of 4 is: 24
+factorial of 5 is: 120
+factorial of 6 is : 720
+
+--------------------------
+Program 3: Armstrong number
+An Armstrong number is a number that is equal to the sum of powers raised to its number of digits. For example
+153 is an Armstrong number since:
+1*1*1 + 5*5*5 + 3*3*3 = 153
+1634: 1^4 + 6^4 + 3^4 + 4^4
+----------------------------------
+Program 4: Write a program to find whether a given number is perfect or not
+A perfect number is a positive integer that is equal to the sum of its positive divisors, excluding
+Sum of all factors of a given number = 2*(number)
+--------------------------------
+
+Return type vs return keyword
+Return type is the data type of the value returned by a method. Return keyword is used to return
+a value from a method. If a method does not have a return type, it is called void
