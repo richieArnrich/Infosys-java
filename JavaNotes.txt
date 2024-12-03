@@ -277,3 +277,4 @@ Static methods:
 A static method is a method that belongs to the class rather than an instance of the class
 A static method can be called without creating an object of the class
 A static method can access only static variables and methods of the class
+
