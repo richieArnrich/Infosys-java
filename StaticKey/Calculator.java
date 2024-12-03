@@ -1,7 +1,6 @@
 package StaticKey;
 
 public class Calculator {
-//	add,sub,mul,div
 	static {
 		System.out.println("Calculator class loaded");
 	}

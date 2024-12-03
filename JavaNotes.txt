@@ -278,3 +278,28 @@ A static method is a method that belongs to the class rather than an instance of
 A static method can be called without creating an object of the class
 A static method can access only static variables and methods of the class
 
+----------------------------------------------------------------------------------------
+Classes And objects
+A class is a blueprint or a template that defines the properties and behavior of an object
+An object is an instance of a class
+Properties are variables(attributes) that are given by the class
+
+Objects are instance of a class, they carry the attributes and behaviours provided by the class.
+
+Syntax:
+className var_name = new className();
+-----------------keyword|constructor call---------------------------
+
+Constructors
+A constructor is a special method of a class that is used to initialize the objects of the class
+A constructor is called when an object is created
+A constructor has the same name as the class
+A constructor does not have a return type not even void
+A constructor is used to initialize the objects of the class
+
+Types of Constructors
+1. No argument constructor (default constructor)
+2. Parameterized constructor : take in inputs when the object is created
+
+this keyword:
+The this keyword is a reference to the current object of the class.
