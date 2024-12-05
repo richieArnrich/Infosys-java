@@ -303,3 +303,20 @@ Types of Constructors
 
 this keyword:
 The this keyword is a reference to the current object of the class.
+---------------------------------------------------------------------
+Pillars of OOPs in Java:
+1. Encapsulation
+2. Inheritance
+3. Polymorphism
+4. Abstraction
+
+	Encapsulation:
+	- It is the concept of bundling data and methods that operate on that data within a
+	single unit.
+	- It is used to hide the internal details of an object from the outside world.
+	- It is used to protect the data from external interference.
+
+	How to achieve Encapsulation
+	- Use access specifiers (public, private, protected)
+	- Make the attributes as private (restricting direct access to the attribute)
+	- Use getter and setter methods (providing indirect access to the attributes)
