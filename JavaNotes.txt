@@ -320,3 +320,11 @@ Pillars of OOPs in Java:
 	- Use access specifiers (public, private, protected)
 	- Make the attributes as private (restricting direct access to the attribute)
 	- Use getter and setter methods (providing indirect access to the attributes)
+
+	Read and write attributes:
+	- Getter method: used to read the attribute
+	- Setter method: used to write the attribute
+	- read - only getter()
+	- read-write getter() and setter()
+	- write - only setter()
+	---------------------------------------------------------------------

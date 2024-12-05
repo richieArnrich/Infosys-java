@@ -8,5 +8,7 @@ public class BankDriver {
 		System.out.println("User Name = "+ b.getName());
 		b.setName("Goutham");
 		System.out.println("New username: "+ b.getName());
+		System.out.println("AccountNo: "+ b.getAccNo());
+		System.out.println("Ifsc: "+ b.getIfsc());
 	}
 }
