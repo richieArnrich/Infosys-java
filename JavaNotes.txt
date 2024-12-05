@@ -328,3 +328,35 @@ Pillars of OOPs in Java:
 	- read-write getter() and setter()
 	- write - only setter()
 	---------------------------------------------------------------------
+--------------------------------------------------------------------------------------
+Inheritance
+Inheritance is a mechanism in which one class can inherit the properties of another class.
+The class that is being inherited is called the parent class or superclass.
+The class that is doing the inheriting is called the child class or subclass.
+Inheritance is used to create a new class that is a modified version of an existing class.
+
+Inheritance is used to create a hierarchy of classes.
+Types of Inheritance:
+1. Single Inheritance
+2. Multiple Inheritance (Not supported in java except for interface)
+3. Multilevel Inheritance
+4. Hierarchical Inheritance
+5. Hybrid Inheritance
+
+Constructors and Inheritance
+- The child class inherits all the properties of the parent class.
+- The child class can also have its own properties.
+- The child class can also have its own constructors.
+- The super class constructor is not inherited
+- They can be only invoked using super() call statment
+
+super() call statement:
+- It is used to invoke the constructor of the parent class.
+- It is used to invoke the methods of the parent class.
+- Brings about constructor chaining
+
+Constructor chaining:
+- It is the process of calling one constructor from another constructor.
+- It is used to avoid code duplication.
+- It is brought about using sper() and this() call statement
+---------------------------------------------------------------------
