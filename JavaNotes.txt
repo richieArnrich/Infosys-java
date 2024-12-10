@@ -364,3 +364,55 @@ Constructor Overloading
 Constructor overloading is a feature of Java that allows a class to have 
 multiple constructors with different parameters.
 ---------------------------------------------------------------------
+Polymorphism
+Polymorphism is the ability of an object to take on multiple forms.
+There are two types of polymorphism:
+1. Compile time polymorphism (static polymorphism)
+2. Runtime polymorphism (dynamic polymorphism)
+
+	Compile Time Polymorphism (CTP):
+	The binding of the object and the method/constructor takes place during compile time
+	It is brought about by:
+	a. Constructor Overloading:
+	Is a feature that allows a class to have multiple constructors with different parameters
+
+	b. Method Overloading
+	Is a feature that allows a class to have multiple methods with the same 
+	name but different parameter list.
+	---------------------------------------------------------------------
+	Runtime Polymorphism (RTP):
+	The binding of the object and the method takes place during the runtime of the program
+	It is brought about by:
+	a. Method Overriding
+	Is a feature that allows a subclass to provide a specific implementation 
+	of a method that is already available in its superclass.
+	In other words:
+	- A subclass can provide a different implementation of a method 
+	that is already available in its superclass.
+
+	Conditions neccessary:
+	* Inheritance between classes is mandatory
+	Eg: Parents are short but their children will be tall
+	* The method names and the parameters in the parent and the child class has to be same.
+	* The method in the child class has to be public, protected or default.
+	* The method in the child class has to have the same return type as the method in the
+	  super class
+
+Abstraction:
+It is the process of hiding the implementation and providing only the required functionality
+It is brought about by using abstract keyword
+example: Playing a game-> user : know how to play the game
+						  developer: know how to implement the game
+						  so the user is totally unaware about the backend implementation.
+
+	Abstract class:
+	An abstract class is a class which cannot be instantiated (create an object)
+	It can abstract methods and concrete methods
+	These type of classes are created using abstract keyword.
+	---------------------------------------------------------------------
+	Abstract method:
+	An abstract method is a method which is declared but not defined
+	It has a method declaration but no method body.
+	---------------------------------------------------------------------
+	When a concrete class extends an abstract class, it has to override all the abstract functions
+	in the abstract class
