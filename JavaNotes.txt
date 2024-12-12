@@ -416,3 +416,35 @@ example: Playing a game-> user : know how to play the game
 	---------------------------------------------------------------------
 	When a concrete class extends an abstract class, it has to override all the abstract functions
 	in the abstract class
+
+	Interface in java:
+	Interfaces in java are used to provide 100% abstraction, as abstract class can have
+	non-abstract non-static methods.
+	In interface we can have non-static abstract methods.
+	We can also have static non-abstract methods
+
+	Non-static functions are by default abstract
+
+-------------------------------------------------------------------------------------------
+Final keyword
+Final in keyword in Java is used to create variables which are constant.
+That is, the variables once assigned will not be able to update.
+
+--------------------------------------------------------------------------------------------
+Exception Handling in Java
+	Exception handling is a mechanism to handle runtime errors or exceptions in Java.
+	Exceptions are those errors which cause an abrupt termination of the execution of the 
+	program
+	Error will lead to compile time errors
+	Exceptions are always runtime
+Handling exceptions:
+* Try block: This block contains the code which may throw an exception.
+* Catch block: This block contains the code which will be executed if an exception is occured.
+* Finally block: This block contains the code which will be executed whether an exception is 
+	occured or not.
+
+Types of exceptions:
+1. Checked exceptions: These are the exceptions which are checked at compile time.
+Eg: InterruptedException
+2. Unchecked exceptions: These are the exceptions which are not checked at compile time.
+Eg: NullPointerException,ArithmeticException etc
