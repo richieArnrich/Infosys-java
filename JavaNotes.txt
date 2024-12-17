@@ -437,6 +437,14 @@ Exception Handling in Java
 	program
 	Error will lead to compile time errors
 	Exceptions are always runtime
+
+	When an exception occurs, a throwable type of object is created, which results in the 
+	abrupt termination of the program.
+
+	Exception Object Propogation
+	When an exception occurs, it is propagated to the caller of the method in which the exception
+	occurred.
+
 Handling exceptions:
 * Try block: This block contains the code which may throw an exception.
 * Catch block: This block contains the code which will be executed if an exception is occured.
@@ -448,3 +456,32 @@ Types of exceptions:
 Eg: InterruptedException
 2. Unchecked exceptions: These are the exceptions which are not checked at compile time.
 Eg: NullPointerException,ArithmeticException etc
+
+Throws and Throw
+Throws:
+* It is used to declare that a method may throw a checked exception.
+* It is used to propogate the exception from the called method to the calling method
+* The calling method has to handle the exception otherwise, there will be an abrupt interuption in 
+the execution
+
+Throw:
+* It is used to throw an exception from a method.
+* It is used to propogate the exception from the called method to the calling method
+
+
+-----------------------------------------------------------------------------------------
+Arrays in Java
+Arrays in Java are the collection of similar data types that are stored in contiguous memory locations.
+Each element in the array is accessible using index values
+Index values ranges from 0 to arr_size-1
+Arrays are mutable in nature: i.e values in each index can be changed
+Arrays are homogeneous in nature: i.e all elements in the array are of same data type
+Arrays are of fixed size i.e we cannot increase or decrease the array size
+
+Questions:
+1. Find the sum of all elements in the array
+2. Find the sum of all even elements and odd elements seperately
+3. Given two arrays A and B 
+A = [5,4,3,7,2,1] B = [1,2,3,6,9,0]
+Find the elements which are common in both the arrays
+-------------------------------------------------------------------------------------

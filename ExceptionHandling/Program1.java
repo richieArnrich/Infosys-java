@@ -15,6 +15,6 @@ public class Program1 {
 			System.out.println("Enter valid input "+ e);
 		}
 		System.out.println("Main ends");
-		Thread.sleep(0);
+//		Thread.sleep(0);
 	}
 }
