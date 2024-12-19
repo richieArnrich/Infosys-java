@@ -485,3 +485,54 @@ Questions:
 A = [5,4,3,7,2,1] B = [1,2,3,6,9,0]
 Find the elements which are common in both the arrays
 -------------------------------------------------------------------------------------
+Algorithms
+Algorithms are the step-by-step procedure to solve a problem. It is a well-defined procedure to
+solve a problem. It is a finite sequence of instructions to solve a problem.
+
+Time Complexity:
+* It is the measure of the time taken by an algorithm to complete its execution.
+* It is usually expressed in terms of the size of the input to the algorithm.
+* It is usually expressed in Big O notation.
+
+Types of time complexities:
+1. Best case time complexity: It is the time complexity when the input is in the best possible
+state.
+2. Average case time complexity: It is the time complexity when the input is in the average state
+3. Worst case time complexity: It is the time complexity when the input is in the worst possible state
+-------------------------------------------------------------------------------------
+Constant Time:
+* It is the time complexity when the time taken by the algorithm does not change with the size of
+the input.
+* It is represented as O(1)
+
+Logarithmic TIme:
+* It is the time complexity when the time taken by the algorithm is proportional to the logarithm of
+the size of the input.
+* It is represented as O(log n)
+
+Linear Time:
+* It is the time complexity when the time taken by the algorithm is proportional to the size of the
+input.
+* It is represented as O(n)
+Example: Linear Search
+
+Linear Search Algorithm:
+1. Start from the first element of the array
+2. Compare the target element with the current element
+3. If the target element is found, return the index of the target element
+4. If the target element is not found, return -1
+
+Binary Search Algorithm
+1. Start from the middle element of the array
+2. Compare the target element with the middle element
+3. If the target element is found, return the index of the target element
+4. If the target element is not found, repeat the process with the left or right half of
+the array
+To find the right part of the array:
+if key > arr[mid] consider only the right part of the array
+else consider only the left part of the array
+
+Time Complexity of Binary Search
+* Best case time complexity: O(1)
+* Average case time complexity: O(log n)
+* Worst case time complexity: O(log n)
