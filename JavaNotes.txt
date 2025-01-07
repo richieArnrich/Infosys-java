@@ -536,3 +536,33 @@ Time Complexity of Binary Search
 * Best case time complexity: O(1)
 * Average case time complexity: O(log n)
 * Worst case time complexity: O(log n)
+-----------------------------------------------------------
+Collection Framework in Java
+-----------------------------------------------------------
+The Collection Framework in Java is a set of classes and interfaces that provide a way to 
+store and manipulate a group of objects.
+
+Wrapper Classes
+-----------------
+* Integer
+* Float
+* Double
+* Boolean
+* Character
+-----------------------------------------------------------
+Collection Framework
+-----------------------------------------------------------
+Set of classes and interfaces that provide a way to handle multiple elements
+-----------------------------------------------------------
+List Interface
+	Properties of List interface
+	* Ordered: elements in the list are Ordered
+	* Indexed: elements in the list are indexed
+	* Duplicates: elements in the list can be duplicates
+
+	Disadvantage of array:
+	* Fixed size: array has a fixed size
+	* Homogenous type of data: could not store multiple types of data
+	
+	*List interface is not limited by any size, we can increase or decrease the size of the List
+	as required.
