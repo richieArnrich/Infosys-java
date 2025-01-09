@@ -20,5 +20,5 @@ public class LinkedListP1 {
 		while(i1.hasPrevious()) {
 			System.out.println(i1.previous());
 		}
-	}
+	}  
 }

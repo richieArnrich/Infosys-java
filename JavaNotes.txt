@@ -566,3 +566,51 @@ List Interface
 	
 	*List interface is not limited by any size, we can increase or decrease the size of the List
 	as required.
+
+------------------------------------------------------------
+Queue Interface in Collection
+------------------------------------------------------------
+Queue Interface
+	* FIFO (First In First Out) order
+	* Elements are added to the end of the queue
+	* Elements are removed from the front of the queue
+	* Elements order is maintained
+------------------------------------------------------------
+Priority Queue in Java
+------------------------------------------------------------
+Priority Queue
+	* Elements are stored based on a priority
+	* Elements with higher priority are removed first
+	* Insertion order is not maintained
+	* Implements comparator interface
+-----------------------------------------------------------
+Set Interface
+------------------------------------------------------------
+	Set Interface
+	* No duplicate elements
+	* No order
+	* Fast search, insertion, and deletion operations
+------------------------------------------------------------
+HashSet
+------------------------------------------------------------
+	HashSet
+	* No duplicate elements
+	* No order
+	* Elements are not linked with each other
+	* Elements are stored in a hashtable
+------------------------------------------------------------
+TreeSet
+------------------------------------------------------------
+	TreeSet
+	* No duplicate elements
+	* Elements are sorted in ascending order
+	* Elements are linked with each other
+	* Elements are stored in a tree data structure
+------------------------------------------------------------
+LinkedHashSet
+------------------------------------------------------------
+	LinkedHashSet
+	* No duplicate elements
+	* Elements are stored in inserted order
+	* Elements are linked with each other
+	* Elements are stored in a linked list and a hashtable
