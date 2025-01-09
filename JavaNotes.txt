@@ -614,3 +614,26 @@ LinkedHashSet
 	* Elements are stored in inserted order
 	* Elements are linked with each other
 	* Elements are stored in a linked list and a hashtable
+
+------------------------------------------------------------
+Multithreading in Java
+------------------------------------------------------------
+Multitasking is the process of executing multiple applications / instances at the same time
+It can be of two types:
+1. Processor Level: Executing multiple applications on the processor and os is processor level
+2. Thread level: Executing multiple threads of the program simultaneously
+------------------------------------------------------------
+What is a thread?
+------------------------------------------------------------
+A thread is a separate flow of execution within a program
+A thread is a lightweight process
+------------------------------------------------------------
+How to create a thread
+------------------------------------------------------------
+1. Extending the Thread class
+	* It implements the Runnable interface
+	* It overrides the run() method
+	* start() will inturn call the run()
+
+2. Implementing the Runnable interface
+	* It provides an abstract function called run()
